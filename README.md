@@ -2,7 +2,7 @@
 ## this application allows awesome tech people to share the latest and greatest in tech. You can create a unique username, and login with your email and password. Your posts are saved to  your account. You can edit and remove posts. You can also leave comments!
 
 # Walkthrough
-## <img src ="" />
+## <img src ="https://github.com/sarahwesley/the-tech-blog/blob/main/images/walkthrough.gif" />
 
 ## Live application: https://cryptic-fortress-50737.herokuapp.com/ 
 
