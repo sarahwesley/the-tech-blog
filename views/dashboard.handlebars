@@ -14,17 +14,24 @@
 </form>
 </section>
 
+ <div class"post-list">
+        <a href="/dashboard/create/"><button id="create-post" class="button is-primary is-pulled-right">create post</button></a>
+        
+        <h2 class="title pb-4">dashboard: your posts</h2><hr>
 {{#if posts.length}}
+    </div>
 <section>
+<div>
 <h2>Your Posts</h2>
-<ol>
+
     {{#each posts as |post|}}
-    <li>
+  
         {{> post-info post}}
         <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
-    </li>
+    
     {{/each}}
-</ol>
+
+</div>
 </section>
 {{/if}}
 
